@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+	"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.action.extension" value="do" />
+
+	<package name="default" extends="struts-default" namespace="/">
+	
+		<action name="login" class="org.uvsq.metier.LoginAction">
+			<result name="success">views/etudiants.jsp</result>
+			<result name="error">login.jsp</result>
+		</action>
+		<action name="choixEtu" class="org.uvsq.metier.EtudiantAction">
+		<result name = "success">/pageOk.jsp</result>
+		
+		</action>
+
+	</package>
+
+</struts>

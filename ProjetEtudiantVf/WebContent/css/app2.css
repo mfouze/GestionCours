@@ -1,0 +1,11 @@
+body{
+    background: url(https://images.unsplash.com/photo-1511629091441-ee46146481b6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d22f0ea76aa44e822fa81f58c063a70d&auto=format&fit=crop&w=1350&q=80)
+}
+#content{
+   text-align: center;
+    padding-top: 10%;
+    color: floralwhite;
+}
+hr{
+    color: black;
+}
