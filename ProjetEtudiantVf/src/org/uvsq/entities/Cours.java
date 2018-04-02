@@ -15,6 +15,7 @@ public class Cours implements Serializable {
 	/**
 	 * 
 	 */
+	//Ceci est un commentaire 
 	private static final long serialVersionUID = 1L;
 	@Id 
 	@GeneratedValue(strategy=GenerationType.AUTO)
